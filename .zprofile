@@ -12,3 +12,8 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Created by `pipx` on 2025-03-07 00:31:49
 export PATH="$PATH:/Users/fesari/.local/bin"
+
+# Setup go environment variables so GOPATH doesn't default to $HOME
+export GOPATH="$HOME/.local/go"
+export GOBIN="$GOPATH/bin"
+export PATH="$GOBIN:$PATH"
