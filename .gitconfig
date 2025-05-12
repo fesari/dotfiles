@@ -1,7 +1,7 @@
 [user]
 	name = fesari
 	email = 30542611+fesari@users.noreply.github.com
-	signingkey = /Users/fesari/.ssh/id_ed25519.pub
+	signingkey = ~/.ssh/id_ed25519.pub
 [push]
 	default = simple
 [pull]
@@ -11,4 +11,4 @@
 [commit]
 	gpgsign = true
 [gpg "ssh"]
-	allowedSignersFile = /Users/fesari/.config/git/allowed_signers
+	allowedSignersFile = ~/.config/git/allowed_signers
