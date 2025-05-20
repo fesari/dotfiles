@@ -2,6 +2,8 @@
 startup_mode="Maximized"
 decorations="Transparent"
 padding={x=5,y=30}
+opacity=0.7
+blur=true
 
 # Preferred fonts: BlexMono Nerd Font Propo, Hack Nerd Font Propo, JetBrainsMonoNL Nerd Font
 [font]
@@ -12,7 +14,7 @@ bold_italic = { style = "Bold Italic" }
 size = 16.0
 
 [cursor]
-style={ shape="Block", blinking="Always" }
+style={ shape="Beam", blinking="Always" }
 blink_interval=500
 
 
