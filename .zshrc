@@ -113,6 +113,9 @@ source $ZSH/oh-my-zsh.sh
 
 alias nmap='grc nmap'
 alias ping='grc ping'
+alias netstat='grc netstat'
+alias dig='grc dig'
+alias traceroute='grc traceroute'
 alias ps='grc ps'
 alias ifconfig='grc ifconfig'
 alias tail='grc tail'
@@ -123,6 +126,10 @@ alias ll='eza -l --color=always --group-directories-first --icons'  # long forma
 alias lt='eza -aT --color=always --group-directories-first --icons' # tree listing
 alias l.='eza -a --icons | egrep "^\."'
 alias vim='nvim'
+alias msfconsole='/opt/metasploit-framework/bin/msfconsole'
+alias msfvenom='/opt/metasploit-framework/bin/msfvenom'
+alias nc='ncat'
+alias zsteg='/opt/homebrew/lib/ruby/gems/3.4.0/gems/zsteg-0.2.13/bin/zsteg'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

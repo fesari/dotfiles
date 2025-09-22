@@ -17,3 +17,12 @@ export PATH="$PATH:/Users/fesari/.local/bin"
 export GOPATH="$HOME/.local/go"
 export GOBIN="$GOPATH/bin"
 export PATH="$GOBIN:$PATH"
+
+##
+# Your previous /Users/fesari/.zprofile file was backed up as /Users/fesari/.zprofile.macports-saved_2025-09-17_at_17:35:24
+##
+
+# MacPorts Installer addition on 2025-09-17_at_17:35:24: adding an appropriate PATH variable for use with MacPorts.
+export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
+# Finished adapting your PATH environment variable for use with MacPorts.
+
